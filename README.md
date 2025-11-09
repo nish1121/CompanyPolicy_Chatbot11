@@ -40,3 +40,31 @@ Click "Process Documents" in the sidebar to ingest company policies
 Create an Azure AI Search service
 Create an index for storing document embeddings
 Note down the endpoint and key
+
+
+###How to Run the Project
+
+Install the required dependencies:
+pip install -r requirements.txt
+
+Set up your Azure services and configure the .env file with your credentials.
+
+Add your company policy documents (PDFs) to the data/company_policies directory.
+
+Run the application:
+streamlit run app.py
+
+
+Open your browser and navigate to the provided URL (usually http://localhost:8501).
+
+Click "Process Documents" in the sidebar to ingest your company policies.
+
+Start asking questions about company policies in the chat interface!
+
+
+Customization Options
+Document Types: Modify the document_processor.py to handle other document formats like Word, HTML, etc.
+Chat Interface: Customize the Streamlit UI in app.py to match your company's branding.
+Response Style: Adjust the prompt template in app.py to change the bot's tone and response style.
+Integration: Integrate with other communication platforms like Microsoft Teams or Slack by replacing the Streamlit interface.
+This project provides a solid foundation for a company policy and support chatbot that can be further customized to meet specific organizational needs.
