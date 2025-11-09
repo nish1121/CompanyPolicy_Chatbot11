@@ -1,3 +1,4 @@
+<img width="655" height="328" alt="Screenshot 2025-11-09 at 5 39 42 PM" src="https://github.com/user-attachments/assets/f61d6848-1f01-4186-b3c6-c3d1606b660c" />
 # CompanyPolicy_Chatbot11
 # Company Policy & Support Chatbot
 
